@@ -13,13 +13,11 @@
 % CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 %
 
-
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
-
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
@@ -53,15 +51,14 @@
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo{./examples/profile.png}
-\name{Claud D.}{Park}
-\position{Software Engineer{\enskip\cdotp\enskip}Security Expert}
-\address{246-1002, Gwangmyeongmayrouge Apt. 86, Cheongna lime-ro, Seo-gu, Incheon-si, 404-180, Rep. of KOREA}
+\name{Mindaugas}{Laganeckas}
+\position{Software Engineer{\enskip\cdotp\enskip}Open Source Contributor}
+\address{Klokkerhaven 5, 2750 Ballerup}
 
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
+\mobile{(+45) 52446220}
+\email{Mindaugas.Laganeckas@gmail.com}
+\github{MindaugasLaganeckas}
+\linkedin{mindaugas-laganeckas-4bb15133}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
@@ -69,7 +66,7 @@
 % \reddit{reddit-id}
 % \extrainfo{extra informations}
 
-\quote{``Be the change that you want to see in the world."}
+%\quote{``I am a SW engineer, that feels very happy, when a root cause for the problem can be found and fixed, yjthat takes pride in the quality I deliver"}
 
 
 %-------------------------------------------------------------------------------
@@ -83,7 +80,7 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Claud D. Park~~~·~~~Curriculum Vitae}
+  {Mindaugas Laganeckas~~~·~~~Curriculum Vitae}
   {\thepage}
 
 
@@ -92,14 +89,12 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \input{cv/education.tex}
-\input{cv/skills.tex}
 \input{cv/experience.tex}
+\input{cv/publications.tex}
+\pagebreak 
+\input{cv/courses.tex}
 \input{cv/extracurricular.tex}
-\input{cv/honors.tex}
-\input{cv/presentation.tex}
-\input{cv/writing.tex}
-\input{cv/committees.tex}
-
+\input{cv/skills.tex}
 
 %-------------------------------------------------------------------------------
 \end{document}
